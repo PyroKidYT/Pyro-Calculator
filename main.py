@@ -41,7 +41,7 @@ display_frame.grid(row=0, column=0, columnspan=4, padx=2, pady=4)
 
 input_text = StringVar()
 
-display = Entry(display_frame, font=('arial', 18, 'bold'), textvariable=input_text, width=22, bg="#eee", bd=0, justify=RIGHT)
+display = Entry(display_frame, font=('arial', 18, 'bold'), textvariable=input_text, width=22, bg="#F5F5F5", bd=0, justify=RIGHT)
 display.pack(ipady= 12) 
 
 button_1 = Button(win, padx=30, pady=30, text="1", bg="chartreuse1", command=lambda: button_press(1))
