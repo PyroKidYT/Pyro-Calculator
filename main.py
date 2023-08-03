@@ -58,7 +58,7 @@ button_add = Button(win, padx=30, pady=30, text="+", bg="aqua", command=lambda: 
 button_sub = Button(win, padx=30, pady=30, text="- ", bg="aqua", command=lambda: button_oper("-"))
 button_div = Button(win, padx=30, pady=30, text="÷ ", bg="aqua", command=lambda: button_oper("/"))
 button_mul = Button(win, padx=30, pady=30, text="× ", bg="aqua", command=lambda: button_oper("*"))
-button_equal = Button(win, padx=30, pady=30, text="=", bg="aqua", command=lambda: equal(""))
+button_equal = Button(win, padx=30, pady=30, text="=", bg="white", command=lambda: equal(""))
 button_clear = Button(win, padx=30, pady=30, text="C", bg="aqua", command=clr_scr)
 button_dec = Button(win, padx=30, pady=30, text=" .", bg="aqua", command=lambda: button_press("."))
 
